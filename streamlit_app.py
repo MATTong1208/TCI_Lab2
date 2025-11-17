@@ -1,3 +1,5 @@
+%pip install clipspy
+
 import streamlit as st
 import clips
 import logging
