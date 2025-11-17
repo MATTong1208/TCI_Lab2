@@ -23,7 +23,7 @@ env.run()
 
 # Output
 result = []
-for fact in env.fact();
+for fact in env.fact():
         if fact.templete.name == 'result':
                 result.append(fact['name'])
 
